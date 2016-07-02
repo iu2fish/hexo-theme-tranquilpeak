@@ -1,8 +1,5 @@
 <!--SCRIPTS-->
-<%- js('assets/js/jquery.js') %>
-<%- js('assets/js/jquery.fancybox.js') %>
-<%- js('assets/js/jquery.fancybox-thumbs.js') %>
-<%- js('assets/js/tranquilpeak.js') %>
+<%- js('assets/js/script-clkelaudjapzvl7fkl8evrbpsgmipv3hahqnbvohyby05phxxrpuwppqvlob.min.js') %>
 <!--SCRIPTS END-->
 <% if (post.comments) { %>
     <% if (theme.disqus_shortname) { %>
@@ -48,3 +45,12 @@
         _st('install','<%= theme.swiftype_install_key %>','2.0.0');
     </script>
 <% } %>
+
+<%
+var tranquilpeakJsFilesToInject = [
+    'jquery.js',
+    'jquery.fancybox.js',
+    'jquery.fancybox-thumbs.js',
+    'tranquilpeak.js'
+];
+%>

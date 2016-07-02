@@ -32,36 +32,36 @@ image_dir: assets/images
 sidebar:
     menu:
         home:
-            title: global.home
+            title: Home
             url: /
             icon: home
         categories:
-            title: global.categories
+            title: Categories
             url: /all-categories
             icon: bookmark
         tags:
-            title: global.tags
+            title: Tags
             url: /all-tags
             icon: tags
         archives:
-            title: global.archives
+            title: Archives
             url: /all-archives
             icon: archive
         search:
-            title: global.search
+            title: Search
             url: /#search
             icon: search
             # `st-search-show-outputs` classes are used to open swiftype search window
             class: st-search-show-outputs
         about:
-            title: global.about
-            url: /#about
+            title: About
+            url: /about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        github:
+            title: github
+            url: https://github.com/iu2fish
+            icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -168,7 +168,7 @@ tag_pagination: true
 # Your Disqus shortname
 disqus_shortname:
 # Your Duoshuo shortname
-duoshuo_shortname:
+duoshuo_shortname: iu2fish
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
